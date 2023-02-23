@@ -1,0 +1,36 @@
+<form id="add book">
+    <div className = "field">
+        <label>Book name:</label>
+        <input type="text">
+    </div>
+
+    <div className = "field">
+        <label>Genre:</label>
+        <input type="text">
+    </div>
+
+    <div className = "field">
+        <label>Select author:</label>
+        <select >
+            <option>Select author</option>
+        </select>
+    </div>
+    <button>+</button>
+</form>
+
+
+class AddBook extends Component{
+    displayAuthors(){
+        const {loading, error, data} = useQuery(getAuthorQuery)
+        if (loading) { return <option disabled>Loading books</option>}
+        if (error){
+            console.log(error.message)
+        }
+        return(
+            data.authors.map(authors =>{
+                return(
+                    <option>{authors.nama}</option>
+                )
+            })
+        )
+    }

@@ -1,0 +1,16 @@
+Mutaion:
+adding, deleting, edit data these are all mutaion
+GraphQl needs to explicitly define which data can be mutated
+
+flow:
+- we are giving test queries or test request from the frontend with the help of graphiql tool to add and retrive data from mongoose atlas database 
+- this queiries are going to our express server app and there we have our resolver function of graphql which recieves and resolves the query and goes to database mongoDB to retrieve the information we need and return it to server which then determines which information to send back to the browser
+
+Frontend
+- Now because graphql is not javaScript language although it looks like , so thats why its not understood by react or any other javaScript framework of the frontend
+
+frontend :Updating component state
+-keep track of the values of each one of the input fields
+-and attach an event with submit when user clicks it its going to take that state and do some processing with it and eventually its going to make mutation on graphQL server updating the book list(for starter display the result on console than check render it with list ) 
+
+In class base we use compose to bind the muliple queries with components so then we  can use the data in the props of that component from queries

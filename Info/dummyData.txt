@@ -1,0 +1,13 @@
+// dummy data
+var books = [
+    {name: "Harry Potter and the philosopher stone", genre: "Fantasy-Adventure", id: "123", authorId: "12"},
+    {name: "Harry Potter and the Goblet of fire", genre: "Fantasy-Adventure", id: "156", authorId: "12"},
+    {name: "Lord of the ring return of the King", genre: "Adventure-Action", id: "234", authorId: "23"},
+    {name: "One Piece", genre: "Adventure-pirates-Shonen", id: "345", authorId: "34"}
+];
+
+var authors = [
+    {name: "J.K Rowlling", age: 55, id: "12"},
+    {name: "J. R. R. Tolkien", age: 54, id: "23"},
+    {name: "ODA", age: 49, id: "34"},
+];
