@@ -10,3 +10,4 @@ Technology used:
 - GraphQL server on Node.js
 - React front-end (with Apollo)
 - MongoDB to store data
+![Screenshot (29)](https://github.com/Niranjangkr/GraphQL_Project/assets/110449470/1642220d-7557-458c-bf1b-2f7c0c4fd6d1)
